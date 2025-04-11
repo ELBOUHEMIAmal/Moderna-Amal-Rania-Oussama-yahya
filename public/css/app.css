@@ -11851,6 +11851,7 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+<<<<<<< HEAD
 .footer {
   background-color: #264653;
   color: #fff;
@@ -11878,6 +11879,135 @@ textarea.form-control-lg {
 }
 .footer ul li {
   margin-bottom: 10px;
+=======
+.header {
+  background: WHITE;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.navbar {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  gap: 1px;
+  align-items: center;
+}
+
+.nav-link {
+  position: relative;
+}
+.nav-link a {
+  text-decoration: none;
+  color: #333;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  transition: 0.3s;
+}
+.nav-link a.active, .nav-link a:hover {
+  color: #007BFF;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 0.5rem 0;
+  min-width: 160px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu > a {
+  display: block;
+  padding: 0.5rem 1rem;
+}
+.dropdown-submenu .dropdown-menu {
+  display: none;
+  top: 0;
+  right: 100%;
+  left: auto;
+  position: absolute;
+  background: #fff;
+  border: 1px solid #ccc;
+  min-width: 160px;
+  padding: 0.5rem 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-submenu:hover > .dropdown-menu {
+  display: block;
+}
+
+.deep-drop {
+  font-size: small;
+}
+
+.video-thumbnail {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+}
+.video-thumbnail img {
+  display: block;
+  max-width: 100%;
+  border-radius: 10px;
+}
+.video-thumbnail .play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  color: white;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.video-thumbnail .section-main {
+  display: flex;
+  padding-top: 20px;
+}
+
+.fs-1 {
+  font-size: smaller;
+>>>>>>> oussama
 }
 
 /*# sourceMappingURL=app.css.map */
