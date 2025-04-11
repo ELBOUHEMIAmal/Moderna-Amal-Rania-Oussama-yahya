@@ -1,162 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
-<<<<<<< HEAD
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./public/css/app.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./public/css/app.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 
+
+
 <body>
+  <header>
+    
+    <div>
+      <div class="navbar fixed-top ">
+        <a href="index.html" class="logo">Moderna</a>
+        <nav class="nav ">
+          <div class="nav-link"><a href="./index.html" class="active">Home</a></div>
+          <div class="nav-link"><a href="./public/pages/about.html">About</a></div>
+          <div class="nav-link"><a href="./public/pages/services.html">Services</a></div>
+          <div class="nav-link"><a href="./public/pages/portfolio.html">Portfolio</a></div>
+          <div class="nav-link"><a href="./public/pages/team.html">Team</a></div>
+          <div class="nav-link"><a href="./public/pages/blog.html">Blog</a></div>
+          
+          <!-- Dropdown -->
+          <div class="nav-link dropdown">
+            <a href="#">Dropdown </a>
+            <div class="dropdown-menu">
+              <a href="#">Dropdown</a>
+              
+              <!-- Deep Dropdown (opens to left) -->
+              <div class="dropdown-submenu">
+                <a href="#" class="deep-drop">Deep Dropdown</a>
+                <div class="dropdown-menu">
+                  <a href="#" class="deep-drop">Deep Dropdown 1</a>
+                  <a href="#" class="deep-drop">Deep Dropdown 2</a>
+                  <a href="#" class="deep-drop">Deep Dropdown 3</a>
+                </div>
+              </div>
+              
+              <a href="#">Dropdown 2</a>
+              <a href="#">Dropdown 3</a>
+            </div>
+          </div>
   
-    <!-- FOOTER       -->
-    <footer class="footer mt-5 pt-5">
-        <div class="container">
-            <div class="text-center mb-4">
-                <h3>Join Our Newsletter</h3>
-                <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
-                <div class="d-flex justify-content-center mt-3">
-                    <input type="email" class="form-control w-50 rounded-pill" placeholder="Enter your email">
-                    <button class="btn btn-primary rounded-pill px-4 ">Subscribe</button>
-                </div>
-            </div>
-
-            <div class="row mt-5">
-                <div class="col-md-3">
-                    <h5>Moderna</h5>
-                    <p>A108 Adam Street<br>New York, NY 535022</p>
-                    <p><strong>Phone:</strong> +1 5589 55488 55<br>
-                        <strong>Email:</strong> info@example.com
-                    </p>
-                </div>
-                <div class="col-md-3">
-                    <h5>Useful Links</h5>
-                    <ul class="list-unstyled">
-                        <li>> Home</li>
-                        <li>> About us</li>
-                        <li>> Services</li>
-                        <li> Terms of service</li>
-                    </ul>
-                </div>
-                <div class="col-md-3">
-                    <h5>Our Services</h5>
-                    <ul class="list-unstyled">
-                        <li> Web Design</li>
-                        <li> Web Development</li>
-                        <li> Product Management</li>
-                        <li> Marketing</li>
-                    </ul>
-                </div>
-                <div class="col-md-3">
-                    <h5>Follow Us</h5>
-                    <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
-                    <div class="d-flex gap-2">
-                        <i class="bi bi-twitter fs-5"></i>
-                        <i class="bi bi-facebook fs-5"></i>
-                        <i class="bi bi-instagram fs-5"></i>
-                        <i class="bi bi-linkedin fs-5"></i>
-                    </div>
-                </div>
-            </div>
-            <hr class="mt-5">
-            <div class="text-center pb-3">
-                &copy; Copyright <strong>Moderna</strong>. All Rights Reserved <br>
-                Designed by <a href="#">BootstrapMade</a>
-            </div>
-        </div>
-    </footer>
-    <!-- END FOOTER -->
-
-    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
-</body>
-
-=======
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./public/css/app.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
-    <title>Document</title>
-</head>
-<body>
-    <header class="header">
-        <div class="navbar">
-          <a href="index.html" class="logo">Moderna</a>
-      
-          <nav class="nav ">
-            <div class="nav-link"><a href="./index.html" class="active">Home</a></div>
-            <div class="nav-link"><a href="./public/pages/about.html">About</a></div>
-            <div class="nav-link"><a href="./public/pages/services.html">Services</a></div>
-            <div class="nav-link"><a href="./public/pages/portfolio.html">Portfolio</a></div>
-            <div class="nav-link"><a href="./public/pages/team.html">Team</a></div>
-            <div class="nav-link"><a href="./public/pages/blog.html">Blog</a></div>
-      
-            <!-- Dropdown -->
-            <div class="nav-link dropdown">
-              <a href="#">Dropdown </a>
-              <div class="dropdown-menu">
-                <a href="#">Dropdown</a>
-      
-                <!-- Deep Dropdown (opens to left) -->
-                <div class="dropdown-submenu">
-                  <a href="#" class="deep-drop">Deep Dropdown</a>
-                  <div class="dropdown-menu">
-                    <a href="#"  class="deep-drop">Deep Dropdown 1</a>
-                    <a href="#"  class="deep-drop">Deep Dropdown 2</a>
-                    <a href="#"  class="deep-drop">Deep Dropdown 3</a>
+          <div class="nav-link"><a href="./public/pages/contact.html">Contact</a></div>
+        </nav>
+      </div>
+      <!-- Amal's part -->
+      <div class="">
+        <div class="opacity"></div>
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div>
+            <div class="">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h2>Welcome to Moderna</h2>
+                    <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                    <a href="#about" class="btn-get-started">Read More</a>
                   </div>
                 </div>
-      
-                <a href="#">Dropdown 2</a>
-                <a href="#">Dropdown 3</a>
+                <div class="carousel-item">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h2>Welcome to Moderna</h2>
+                    <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                    <a href="#about" class="btn-get-started">Read More</a>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h2>Welcome to Moderna</h2>
+                    <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                    <a href="#about" class="btn-get-started">Read More</a>                
+                  </div>
+                </div>
               </div>
+  
             </div>
-      
-            <div class="nav-link"><a href="./public/pages/contact.html">Contact</a></div>
-          </nav>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+  
         </div>
-      </header>
-      
-      <section class="section-main d-flex">
+      </div>
+                <!-- end Amal's part -->
+    </nav>
+    
 
-            <div class="div-img-video">
-                <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" target="_blank" class="video-thumbnail">
-                    <img src="./public/images/img/about.jpg" alt="video" width="600px">
-                    <i class="bi bi-play-circle-fill play-button"></i>
-                </a>
-            </div>
+  </header>
+  <main>
+    <section class="section-main d-flex">
 
+      <div class="div-img-video">
+        <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" target="_blank" class="video-thumbnail">
+          <img src="./public/images/img/about.jpg" alt="video" width="600px">
+          <i class="bi bi-play-circle-fill play-button"></i>
+        </a>
+      </div>
       <div class="part02">
         <h2 class="text-primary">Voluptatem dignissimos provident</h2>
-        <p class="text-warning">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p class="text-warning">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut labore et dolore magna aliqua.</p>
         <i class="bi bi-check2-all fs-3 icon"></i>
         <span>
-            Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Ullamco laboris nisi ut aliquip ex ea commodo consequat.
         </span>
         <br>
         <i class="bi bi-check2-all fs-3   icon"></i>
         <span>
-            Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Ullamco laboris nisi ut aliquip ex ea commodo consequat.
         </span>
         <br>
         <i class="bi bi-check2-all fs-3 icon"></i>
         <span>
-            Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Ullamco laboris nisi ut aliquip ex ea commodo consequat.
         </span>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-             Illo voluptates mollitia voluptatem? Maiores soluta fugit ad,
-              dolorem consectetur repellendus.</p>
-    </div>
-</div>
+          Illo voluptates mollitia voluptatem? Maiores soluta fugit ad,
+          dolorem consectetur repellendus.</p>
+      </div>
+    </section>
+   
+  </main>
+    <!-- FOOTER       -->
+    <footer class="footer mt-5 pt-5">
+      <div class="container">
+        <div class="text-center mb-4">
+          <h3>Join Our Newsletter</h3>
+          <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
+          <div class="d-flex justify-content-center mt-3">
+            <input type="email" class="form-control w-50 rounded-pill" placeholder="Enter your email">
+            <button class="btn btn-primary rounded-pill px-4 ">Subscribe</button>
+          </div>
+        </div>
+  
+        <div class="row mt-5">
+          <div class="col-md-3">
+            <h5>Moderna</h5>
+            <p>A108 Adam Street<br>New York, NY 535022</p>
+            <p><strong>Phone:</strong> +1 5589 55488 55<br>
+              <strong>Email:</strong> info@example.com
+            </p>
+          </div>
+          <div class="col-md-3">
+            <h5>Useful Links</h5>
+            <ul class="list-unstyled">
+              <li>> Home</li>
+              <li>> About us</li>
+              <li>> Services</li>
+              <li> Terms of service</li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h5>Our Services</h5>
+            <ul class="list-unstyled">
+              <li> Web Design</li>
+              <li> Web Development</li>
+              <li> Product Management</li>
+              <li> Marketing</li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h5>Follow Us</h5>
+            <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+            <div class="d-flex gap-2">
+              <i class="bi bi-twitter fs-5"></i>
+              <i class="bi bi-facebook fs-5"></i>
+              <i class="bi bi-instagram fs-5"></i>
+              <i class="bi bi-linkedin fs-5"></i>
+            </div>
+          </div>
+        </div>
+        <hr class="mt-5">
+        <div class="text-center pb-3">
+          &copy; Copyright <strong>Moderna</strong>. All Rights Reserved <br>
+          Designed by <a href="#">BootstrapMade</a>
+        </div>
+      </div>
+    </footer>
+    <!-- END FOOTER -->
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 
 
 
 
-<script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+
+
+
+
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
->>>>>>> oussama
+
 </html>
