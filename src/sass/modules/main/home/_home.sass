@@ -1,0 +1,43 @@
+
+.desc-A
+    display: flex
+    flex-direction: column
+    align-items: center
+    text-align: center
+    width: 100%
+    h1
+        font-size: 32px
+        color: #1e4356
+        font-weight: 700
+        margin-bottom: 20px
+        padding-bottom: 20px
+        position: relative
+    h1:before
+        content: ""
+        position: absolute
+        display: block
+        width: 155px
+        height: 1px
+        left: 0
+        right: 20px
+        background: #000
+        bottom: 1px
+        margin: auto
+    h1:after
+        content: ""
+        position: absolute
+        display: block
+        width: 60px
+        height: 3px
+        background: #68a4c4
+        left: 0
+        right: 0
+        bottom: 0
+        margin: auto
+.col-md-7 
+    h3
+        color: #1e4356
+        ul
+            li
+                span:marker
+                    display: none

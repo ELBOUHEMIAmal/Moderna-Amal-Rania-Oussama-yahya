@@ -11994,7 +11994,7 @@ i {
   background-image: url("../images/img/hero-bg.jpg");
   position: relative;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   clip-path: ellipse(74% 91% at 51% -6%);
 }
 
@@ -12004,7 +12004,7 @@ i {
   background: #1e4356;
   opacity: 0.5;
   height: 140vh;
-  width: 100vw;
+  width: 100%;
   clip-path: ellipse(78% 70% at 55% -7%);
 }
 
@@ -12110,6 +12110,53 @@ i {
 }
 .footer ul li {
   margin-bottom: 10px;
+}
+
+.desc-A {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+.desc-A h1, .desc-A .h1 {
+  font-size: 32px;
+  color: #1e4356;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+.desc-A h1:before, .desc-A .h1:before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 155px;
+  height: 1px;
+  left: 0;
+  right: 20px;
+  background: #000;
+  bottom: 1px;
+  margin: auto;
+}
+.desc-A h1:after, .desc-A .h1:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #68a4c4;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.col-md-7 h3, .col-md-7 .h3 {
+  color: #1e4356;
+}
+.col-md-7 h3 ul li span:marker, .col-md-7 .h3 ul li span:marker {
+  display: none;
 }
 
 /*# sourceMappingURL=app.css.map */
