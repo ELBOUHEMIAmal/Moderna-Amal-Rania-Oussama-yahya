@@ -12005,7 +12005,7 @@ textarea.form-control-lg {
   padding-top: 20px;
 }
 
-.fs-1 {
+i {
   font-size: smaller;
 }
 
@@ -12186,6 +12186,23 @@ textarea.form-control-lg {
 }
 .col-md-7 h3 ul li span:marker, .col-md-7 .h3 ul li span:marker {
   display: none;
+}
+
+.part02 {
+  padding-left: 10px;
+}
+
+.s-4-o {
+  padding: 0 20px;
+  font-size: smaller;
+}
+
+.p-f-chng {
+  font-size: 30px !important;
+}
+
+.p-s-4-r {
+  padding-top: 5px;
 }
 
 /*# sourceMappingURL=app.css.map */
